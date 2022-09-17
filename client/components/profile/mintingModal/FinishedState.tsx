@@ -16,7 +16,7 @@ const FinishedState = () => {
 
   useEffect(() => {
     getCurrentUserDetails();
-  });
+  }, []);
 
   return (
     <div className={style.wrapper}>

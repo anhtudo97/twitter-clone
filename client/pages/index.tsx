@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { TwitterContext } from "../context/TwitterContext";
 import Feed from "../components/home/Feed";
 import Sidebar from "../components/Sidebar";

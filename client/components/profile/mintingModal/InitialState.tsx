@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useEffect } from "react";
 import { GiEarthAmerica } from "react-icons/gi";
 
 const style = {
@@ -37,7 +37,7 @@ const InitialState = ({
 }: InitialStateProps) => {
   useEffect(() => {
     console.log(profileImage);
-  }, []);
+  }, [profileImage]);
 
   return (
     <div className={style.wrapper}>
